@@ -34,7 +34,7 @@ class HomeScreenMobile extends StatelessWidget {
           // main  content of the app
           // row with hello name  and user avatar
           SizedBox(
-            height: MediaQuery.of(context).size.height,
+            height: MediaQuery.of(context).size.height - 50,
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               mainAxisSize: MainAxisSize.max,

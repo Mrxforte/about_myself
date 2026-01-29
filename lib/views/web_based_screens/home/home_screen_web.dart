@@ -1,3 +1,4 @@
+import 'package:about_myself/views/web_based_screens/about/about_screen_web.dart';
 import 'package:about_myself/views/widgets/custom_user_title_widget.dart';
 import 'package:about_myself/views/widgets/my_drawer_widget.dart';
 import 'package:about_myself/views/wrapper/custom_tab_item_widget.dart';
@@ -98,6 +99,9 @@ class HomeScreenWeb extends StatelessWidget {
               ],
             ),
           ),
+
+          // About Screen
+          AboutScreenWeb(),
         ],
       ),
     );
