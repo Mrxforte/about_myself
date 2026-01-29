@@ -13,9 +13,10 @@ class CustomUserTitleWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      margin: EdgeInsets.only(left: 10),
       alignment: Alignment.center,
-      width: 200,
-      height: 80,
+      width: 120,
+      height: 40,
       decoration: BoxDecoration(
         color: bgColor,
         borderRadius: BorderRadius.only(
@@ -25,7 +26,11 @@ class CustomUserTitleWidget extends StatelessWidget {
       ),
       child: Text(
         title,
-        style: TextStyle(fontSize: fontSize, fontWeight: FontWeight.w300),
+        style: TextStyle(
+          fontSize: fontSize,
+          fontWeight: FontWeight.w300,
+          color: Colors.white,
+        ),
       ),
     );
   }

@@ -1,5 +1,5 @@
 import 'package:about_myself/views/mobile_based_screens/home_screen_mobile.dart';
-import 'package:about_myself/views/web_based_screens/home_screen_web.dart';
+import 'package:about_myself/views/web_based_screens/home/home_screen_web.dart';
 import 'package:flutter/material.dart';
 
 class Wrapper extends StatelessWidget {
