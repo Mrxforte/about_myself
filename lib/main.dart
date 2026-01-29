@@ -8,6 +8,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(title: 'About myself', home: Wrapper());
+    return MaterialApp(
+      title: 'About myself',
+      home: Wrapper(),
+      debugShowCheckedModeBanner: false,
+    );
   }
 }

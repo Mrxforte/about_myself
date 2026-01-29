@@ -8,7 +8,10 @@ class HomeScreenWeb extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       drawer: MyDrawerWidget(),
-      appBar: AppBar(title: Text("Home Screen web")),
+      appBar: AppBar(title: Row(children: [
+          
+        ],
+      )),
     );
   }
 }
