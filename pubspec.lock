@@ -75,6 +75,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  iconsax:
+    dependency: "direct main"
+    description:
+      name: iconsax
+      sha256: fb0144c61f41f3f8a385fadc27783ea9f5359670be885ed7f35cef32565d5228
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.8"
   leak_tracker:
     dependency: transitive
     description:
@@ -144,6 +152,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  social_action_button:
+    dependency: "direct main"
+    description:
+      name: social_action_button
+      sha256: "7e765ec3d9caa94d5f1cb7a3580f3783931c58abcbfa42ea9f5d4bde3e0b50ea"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.2"
   source_span:
     dependency: transitive
     description:
